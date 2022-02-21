@@ -6,8 +6,6 @@
 //! toute réutilisation à des fins compétitives est formellement interdite.
 
 
-
-
 fn main() {
-    println!("Hello, world!");
+    println!("\nHello, world!");
 }
