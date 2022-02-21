@@ -1,0 +1,8 @@
+[package]
+name = "projet_de_si_2022"
+description = "Ce projet de SI 2022 correspond au challenge robotique de la même année. Il n'est pas disponible pour réutilisation."
+version = "0.1.0"
+edition = "2021"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
