@@ -21,11 +21,11 @@
 </U8>
 <String>
 <Name>Left Motor</Name>
-<Val>!NXT Motor 1</Val>
+<Val>!Roue gauche</Val>
 </String>
 <String>
 <Name>Right Motor</Name>
-<Val>!NXT Motor 2</Val>
+<Val>!Roue droite</Val>
 </String>
 <EB>
 <Name>Motor Type</Name>
@@ -36,7 +36,7 @@
 </EB>
 <I32>
 <Name>Power Level:</Name>
-<Val>75</Val>
+<Val>90</Val>
 </I32>
 <EL>
 <Name>Controller</Name>
@@ -118,11 +118,11 @@
 <NumElts>5</NumElts>
 <String>
 <Name>Motor</Name>
-<Val>&lt;None&gt;</Val>
+<Val>!Monter Descendre</Val>
 </String>
 <I32>
 <Name>Power Level</Name>
-<Val>0</Val>
+<Val>80</Val>
 </I32>
 <DBL>
 <Name>Upper Limit</Name>
@@ -2134,14 +2134,18 @@
 <NumElts>4</NumElts>
 <Array>
 <Name>All Actuators</Name>
-<Dimsize>2</Dimsize>
+<Dimsize>3</Dimsize>
 <String>
 <Name></Name>
-<Val>!NXT Motor 1</Val>
+<Val>!Roue gauche</Val>
 </String>
 <String>
 <Name></Name>
-<Val>!NXT Motor 2</Val>
+<Val>!Roue droite</Val>
+</String>
+<String>
+<Name></Name>
+<Val>!Monter Descendre</Val>
 </String>
 </Array>
 <Array>
@@ -2154,26 +2158,34 @@
 </Array>
 <Array>
 <Name>Speed Control</Name>
-<Dimsize>2</Dimsize>
+<Dimsize>3</Dimsize>
 <String>
 <Name></Name>
-<Val>!NXT Motor 1</Val>
+<Val>!Roue gauche</Val>
 </String>
 <String>
 <Name></Name>
-<Val>!NXT Motor 2</Val>
+<Val>!Roue droite</Val>
+</String>
+<String>
+<Name></Name>
+<Val>!Monter Descendre</Val>
 </String>
 </Array>
 <Array>
 <Name>Distance Control</Name>
-<Dimsize>2</Dimsize>
+<Dimsize>3</Dimsize>
 <String>
 <Name></Name>
-<Val>!NXT Motor 1</Val>
+<Val>!Roue gauche</Val>
 </String>
 <String>
 <Name></Name>
-<Val>!NXT Motor 2</Val>
+<Val>!Roue droite</Val>
+</String>
+<String>
+<Name></Name>
+<Val>!Monter Descendre</Val>
 </String>
 </Array>
 </Cluster>
